@@ -24,7 +24,7 @@ module.exports = {
     },
     create: function (req, res) {
         if (log) console.log("Creating new record ")
-        if (log) console.log(req.body.startDate)
+        if (log) console.log(req.body)
         Model
             .create(req.body)
             .then(response => res.json(response))
