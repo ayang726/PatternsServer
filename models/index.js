@@ -1,3 +1,4 @@
 module.exports = {
-    Routine: require("./Routine")
+    Routine: require("./Routine"),
+    Practice: require("./Practice")
 }
